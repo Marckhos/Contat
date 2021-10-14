@@ -40,15 +40,17 @@ body
     border:none;
     background-color: rgb(30, 119, 119);
     
+    
 }
 .buscar:hover
 {
-    width: 32%;
+    width: 36%;
     margin-top: 12px ;
     border-radius: 10px;
     padding: 6px;
     border:none;
     background-color: rgb(30, 119, 119);
+    
 }
 .buscar::placeholder{
     color: rgb(255, 255, 255);
@@ -142,6 +144,7 @@ body
     margin-left: 8%;
     width: 256px;
     height: 300px;
+    
 }
 
 .container .contend .cards .card:hover
@@ -213,6 +216,7 @@ body
 {
     margin: 24px 0;
     width: 100%;
+    color: #fff;
 } 
 
 /* CSS do RODAPÈ  */
