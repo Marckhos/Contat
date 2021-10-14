@@ -1,0 +1,262 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body
+{
+    background:linear-gradient(to left, rgb(73, 207, 174), rgb(7, 102, 77) );
+    height: 100vh;
+    width: 100%;
+
+}
+
+/* CSS DA BARRRA DE NAVEGAÇÃO SUPERIOR  */
+.menu nav
+{    
+    display: flex;
+    background-color: rgb(7, 71, 80);
+
+}
+
+.menu nav div 
+{
+    
+    width: 100%;
+    background-color: rgb(7, 71, 80);
+    text-align: right;
+    margin-right: 32%;
+
+    
+}
+
+.buscar
+{
+    margin-top: 12px ;
+    border-radius: 10px;
+    padding: 6px;
+    border:none;
+    background-color: rgb(30, 119, 119);
+    
+}
+.buscar:hover
+{
+    width: 32%;
+    margin-top: 12px ;
+    border-radius: 10px;
+    padding: 6px;
+    border:none;
+    background-color: rgb(30, 119, 119);
+}
+.buscar::placeholder{
+    color: rgb(255, 255, 255);
+    left: 8%;    
+}
+.menu nav button 
+{
+    background-color: rgb(30, 119, 119);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: revert;
+    margin-left: -32px;
+    cursor: move;
+}
+
+.menu nav div li:hover 
+{    
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(219, 99, 0);    
+}
+
+.menu nav > a 
+{
+    background-color: rgb(7, 71, 80);
+    text-decoration: none;
+    text-align: center;
+    color: white;  
+    width: 30%;
+
+}
+
+.menu a > h1 
+{  
+    padding: 12px;   
+}
+
+.myft
+{
+    background-image: url(https://portalfotografianapratica.com/wp-content/uploads/2019/09/miniatura-01-730x410.jpg);
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    margin-left: 94%;
+    margin-top: -4%;
+    border-radius: 50%;   
+    
+}
+
+/* CSS DOS CARDS DE SELEÇÃO  */
+
+.container
+ {
+    display: flex;
+    justify-content: center;
+    color: #434343;
+    align-items: center;
+    background: transparent;
+
+
+    margin-top: 10%;
+}
+
+
+
+.container .contend .cards
+{    
+    display: flex;
+    padding: 64px;
+         
+    
+}
+
+.container .contend .cards .card:first-child
+{
+    margin-left: 0;
+}
+
+.container .contend .cards .card
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 480px;
+    margin-left: 8%;
+    width: 256px;
+    height: 300px;
+}
+
+.container .contend .cards .card:hover
+{
+
+    width: 300px;
+    height: 360px;
+    margin-top: -10%;
+}
+
+
+.icon-card
+{
+    width: 64px;
+    height: 64px;
+}
+
+.icon-card img 
+{
+    width: 100%;
+    
+}
+
+.container .contend .cards .card button 
+{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 75%;
+    font-weight: bold;
+    background:linear-gradient(to right, #014949, #49ff95 );
+    color: #ffffff;
+    margin-top: 25%;
+}
+.container .contend .cards .card button:hover
+{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 75%;
+    font-weight: 900px;
+    background:linear-gradient(to right, #8b0303, #ff9b49 );
+    color: #ffffff;
+}
+
+
+.container .contend .cards .card
+{
+    
+    background:linear-gradient(to left, rgb(4, 180, 83), rgb(150, 240, 162) );
+    color: #000;
+    transition: 1s;
+
+}
+
+.container .contend .cards .card:hover
+{
+
+    box-shadow: 25px  25px 60px -30px rgb(62, 122, 75);
+    background:linear-gradient(to left, rgb(25, 235, 70), rgb(176, 241, 214) );
+       
+}
+
+.container .contend .cards .card h3
+{
+    margin: 24px 0;
+    width: 100%;
+} 
+
+/* CSS do RODAPÈ  */
+
+.footer 
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(2, 77, 57);
+    text-align: center;
+    
+    
+    
+}
+spam 
+{
+    padding:24px; 
+    margin-bottom: 48px;
+
+          
+}
+
+.footer a, p 
+{
+
+   color: white !important;
+   margin-right: 16px;
+   font-size: 15px;
+}
+
+.footer a
+{
+    display: inline;
+    text-decoration: none;
+    margin-bottom: 12px;    
+}
+
+.copyr 
+    {
+        margin-top: 8px;
+        font-size: 12px;
+}
+
+
+
+
+
