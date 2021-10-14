@@ -8,7 +8,7 @@
 body
 {
     background:linear-gradient(to left, rgb(73, 207, 174), rgb(7, 102, 77) );
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 
 }
@@ -42,16 +42,13 @@ body
     
     
 }
+
 .buscar:hover
 {
     width: 36%;
-    margin-top: 12px ;
-    border-radius: 10px;
-    padding: 6px;
-    border:none;
-    background-color: rgb(30, 119, 119);
-    
+
 }
+
 .buscar::placeholder{
     color: rgb(255, 255, 255);
     left: 8%;    
@@ -110,8 +107,6 @@ body
     color: #434343;
     align-items: center;
     background: transparent;
-
-
     margin-top: 10%;
 }
 
@@ -120,9 +115,7 @@ body
 .container .contend .cards
 {    
     display: flex;
-    padding: 64px;
-         
-    
+    padding: 64px;    
 }
 
 .container .contend .cards .card:first-child
@@ -178,7 +171,7 @@ body
     font-size: 75%;
     font-weight: bold;
     background:linear-gradient(to right, #014949, #49ff95 );
-    color: #ffffff;
+    color: #fafafa;
     margin-top: 25%;
 }
 .container .contend .cards .card button:hover
@@ -234,9 +227,7 @@ body
 spam 
 {
     padding:24px; 
-    margin-bottom: 48px;
-
-          
+    margin-bottom: 48px;          
 }
 
 .footer a, p 
